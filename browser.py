@@ -37,3 +37,5 @@ def get_list():
 
 notification("New Movies Running..", 5)
 get_list()
+driver.close()
+driver.quit()
